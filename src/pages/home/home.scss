@@ -1,0 +1,30 @@
+page-home {
+ion-content{
+  text-align: center !important;
+}
+
+  ion-input {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 45%;
+  }
+
+  ion-input [placeholder]{
+    text-align: center;
+  }
+
+  button{
+    margin-top: 20% !important;
+    font-weight: bold;
+  }
+
+  #futer {
+    font-size: 10px;
+    text-align: center;
+    width: auto;
+  }
+}

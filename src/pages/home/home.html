@@ -1,0 +1,12 @@
+<ion-content padding>
+  <ion-input placeholder="Vaš ID"></ion-input>
+  <!--Moze i [navpush]="SecondPage"-->
+  <button ion-button (click)="navigateToStart()" large icon-left color="myPrimary">
+    <ion-icon name="play"></ion-icon>
+NASTAVI</button>
+</ion-content>
+<ion-footer (click)='visitMB();'>
+  <ion-toolbar>
+    <ion-title id="futer">© Micro Business 2017</ion-title>
+  </ion-toolbar>
+</ion-footer>

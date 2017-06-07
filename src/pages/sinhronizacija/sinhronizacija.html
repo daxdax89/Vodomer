@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Sinhronizacija</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item (click)='visitMB();'>
+      <ion-icon name="cloud-download" item-left></ion-icon>
+      Preuzimanje podataka
+    </ion-item>
+    <ion-item (click)='visitMB();'>
+      <ion-icon name="cloud-upload" item-left></ion-icon>
+      Slanje podataka
+    </ion-item>
+    <ion-item (click)='visitMB();'>
+      <ion-icon name="images" item-left></ion-icon>
+      Slanje slika
+    </ion-item>
+    <ion-item (click)='visitMB();'>
+      <ion-icon name="trash" item-left></ion-icon>
+      Brisanje podataka
+    </ion-item>
+  </ion-list>
+</ion-content>
+<ion-footer (click)='visitMB();'>
+  <ion-toolbar>
+    <ion-title id="futer">© Micro Business 2017</ion-title>
+  </ion-toolbar>
+</ion-footer>

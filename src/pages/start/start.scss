@@ -1,0 +1,37 @@
+page-start {
+  ion-navbar {
+    text-align: left !important;
+    width: 100% !important;
+    float: left !important;
+    color: black !important;
+  }
+
+  ion-content {
+    background-color: #fafafa !important;
+  }
+
+  .customButton {
+    height: 100px;
+    margin-top: 15%;
+    width: 80%;
+    font-weight: 900;
+    text-shadow: 1px 1px #000;
+    font-size: 1.3em !important;
+    border: 1px solid #000;
+    text-transform: none !important;
+    border-radius: 5px;
+  }
+
+  ion-title {
+    text-align: center;
+  }
+
+  #dugmici {
+    text-align: center;
+    margin-top: 20%;
+  }
+
+  .title-ios {
+    padding: 0;
+  }
+}
