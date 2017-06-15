@@ -1,24 +1,24 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="myDark2">
     <ion-title>Sinhronizacija</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
   <ion-list>
-    <ion-item (click)='visitMB();'>
+    <ion-item (click)='getData();'>
       <ion-icon name="cloud-download" item-left></ion-icon>
       Preuzimanje podataka
     </ion-item>
-    <ion-item (click)='visitMB();'>
+    <ion-item (click)='uploadData();'>
       <ion-icon name="cloud-upload" item-left></ion-icon>
       Slanje podataka
     </ion-item>
-    <ion-item (click)='visitMB();'>
+    <ion-item (click)='sendPicture();'>
       <ion-icon name="images" item-left></ion-icon>
       Slanje slika
     </ion-item>
-    <ion-item (click)='visitMB();'>
+    <ion-item (click)='wipeData();'>
       <ion-icon name="trash" item-left></ion-icon>
       Brisanje podataka
     </ion-item>

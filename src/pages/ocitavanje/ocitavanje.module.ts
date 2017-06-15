@@ -13,4 +13,4 @@ import { OcitavanjePage } from './ocitavanje';
     OcitavanjePage
   ]
 })
-export class OcitavanjePageModule {}
+export class OcitavanjePageModule { }

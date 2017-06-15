@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Firebase } from '@ionic-native/firebase';
 
 @IonicPage()
 @Component({
@@ -8,7 +9,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class OcitavanjePage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(private navCtrl: NavController, private navParams: NavParams, private firebase: Firebase) {
+    
   }
 
   ionViewDidLoad() {

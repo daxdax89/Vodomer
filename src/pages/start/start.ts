@@ -17,32 +17,33 @@ export class StartPage {
 
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad StartPage');
-  }
+  // ionViewDidLoad() {
+  //   console.log('ionViewDidLoad StartPage');
+  // }
 
-  ionViewWillEnter() {
-    console.log('ionViewWillenter is fired just as the page is about to become active.');
-  }
+  // ionViewWillEnter() {
+  //   console.log('ionViewWillenter is fired just as the page is about to become active.');
+  // }
 
-  ionViewDidEnter() {
-    console.log('ionViewDidEtner fired each time the page is entered');
-  }
+  // ionViewDidEnter() {
+  //   console.log('ionViewDidEtner fired each time the page is entered');
+  // }
 
-  ionViewWillLeave() {
-    console.log('ionViewWillLeave is fired each time the page is about to leave');
-  }
+  // ionViewWillLeave() {
+  //   console.log('ionViewWillLeave is fired each time the page is about to leave');
+  // }
 
-  ionViewDidLeave() {
-    console.log('ionViewDidLeave is fired each time when the use has left the page');
-  }
+  // ionViewDidLeave() {
+  //   console.log('ionViewDidLeave is fired each time when the use has left the page');
+  // }
 
-  ionViewWillUnload() {
-    console.log('ionViewWillUnload is ran when the page is about to be destoryed');
-  }
+  // ionViewWillUnload() {
+  //   console.log('ionViewWillUnload is ran when the page is about to be destoryed');
+  // }
 
-  navigateToOcitavanje(): void {
-    this.navCtrl.push('OcitavanjePage');
+  navigateToUlice(): void {
+    //if there is data open this page and show streets else show alert
+    this.navCtrl.push('UlicePage');
   }
 
   navigateToSinhronizacija(): void {
